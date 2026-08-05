@@ -61,6 +61,7 @@
       "maxInputTokens": 200000,
       "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
+        "low",
         "high",
         "max"
       ],
