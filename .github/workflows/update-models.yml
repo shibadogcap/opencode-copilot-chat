@@ -38,6 +38,9 @@ jobs:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
         run: bun run scripts/update-json.ts
 
+      - name: Run CommandCode updater
+        run: bun run scripts/update-commandcode.ts
+
       - name: Debug - List Auth source
         run: opencode auth list
 
@@ -45,15 +48,17 @@ jobs:
         run: |
           echo "=== model-settings.json ==="
           cat model-settings.json
+          echo "=== model-settings-commandcode.json ==="
+          cat model-settings-commandcode.json || echo "(not found)"
           echo "=== models/ directory ==="
           ls -la models/
           echo "=== git status ==="
-          git status --porcelain -- model-settings.json models/
+          git status --porcelain -- model-settings.json model-settings-commandcode.json models/
 
       - name: Check for changes
         id: check_changes
         run: |
-          if git status --porcelain -- model-settings.json models/ | grep -q .; then
+          if git status --porcelain -- model-settings.json model-settings-commandcode.json models/ | grep -q .; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -64,7 +69,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add model-settings.json models/
+          git add model-settings.json model-settings-commandcode.json models/
           git commit -m "chore: update models"
           git push
 
@@ -74,7 +79,7 @@ jobs:
           echo "### Model Updates Detected! 🔄" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`diff" >> $GITHUB_STEP_SUMMARY
-          git diff HEAD~1 -- model-settings.json models/ >> $GITHUB_STEP_SUMMARY
+          git diff HEAD~1 -- model-settings.json model-settings-commandcode.json models/ >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
 
       - name: No changes summary
