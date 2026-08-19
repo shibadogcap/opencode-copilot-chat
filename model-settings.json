@@ -2923,8 +2923,8 @@
         "vision": false,
         "thinking": false,
         "maxInputTokens": 163840,
-        "maxOutputTokens": 65536,
-        "tooltip": "Price Per 1M token -- Input 0.27$, Output 1.12$, Cache 0.135$"
+        "maxOutputTokens": 163840,
+        "tooltip": "Price Per 1M token -- Input 0.25$, Output 1$, Cache 0$"
       },
       {
         "id": "deepseek/deepseek-r1-distill-llama-70b",
@@ -5565,8 +5565,8 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 65536,
-        "tooltip": "Price Per 1M token -- Input 0.225$, Output 1.8$, Cache 0.225$"
+        "maxOutputTokens": 262144,
+        "tooltip": "Price Per 1M token -- Input 0.25$, Output 1.25$, Cache 0.25$"
       },
       {
         "id": "qwen/qwen3-vl-235b-a22b-thinking",
