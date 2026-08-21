@@ -428,7 +428,7 @@
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 200000,
+      "maxInputTokens": 400000,
       "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$, Cache 0$"
     },
