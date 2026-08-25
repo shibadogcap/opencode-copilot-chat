@@ -226,7 +226,7 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.01$"
+      "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
     },
     {
       "id": "Qwen/Qwen3.8-Max",
