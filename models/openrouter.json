@@ -548,12 +548,12 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 262144,
       "supportsReasoningEffort": [
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.966$, Output 3.036$, Cache 0.1932$"
+      "tooltip": "Price Per 1M token -- Input 1.19$, Output 3.74$, Cache 0.221$"
     },
     {
       "id": "z-ai/glm-4.6v",
@@ -588,8 +588,8 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 204800,
-      "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.966$, Output 3.036$, Cache 0.1794$"
+      "maxOutputTokens": 202752,
+      "tooltip": "Price Per 1M token -- Input 1.26$, Output 3.96$, Cache 0.234$"
     },
     {
       "id": "z-ai/glm-4.7-flash",
@@ -653,7 +653,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.056$, Output 0.112$, Cache 0.0112$"
+      "tooltip": "Price Per 1M token -- Input 0.088606$, Output 0.177212$, Cache 0.017721$"
     },
     {
       "id": "deepseek/deepseek-v4-pro-0813",
@@ -686,7 +686,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.522$, Output 1.044$, Cache 0.0435$"
+      "tooltip": "Price Per 1M token -- Input 0.790308$, Output 1.580616$, Cache 0.065859$"
     },
     {
       "id": "deepseek/deepseek-v3.2",
@@ -787,7 +787,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.0658$, Output 0.1316$, Cache 0.01316$"
+      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.028$"
     },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -4220,7 +4220,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1$, Output 4.05$, Cache 0.17$"
+      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4.05$, Cache 0.16$"
     },
     {
       "id": "thinkingmachines/inkling-small:free",
@@ -4269,7 +4269,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.035$, Output 0.12$, Cache 0.01$"
+      "tooltip": "Price Per 1M token -- Input 0.035$, Output 0.075$, Cache 0.008$"
     },
     {
       "id": "inclusionai/ling-3.0-flash",
@@ -4857,7 +4857,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 974842,
+      "maxOutputTokens": 1048576,
       "modelOptions": {
         "top_p": null
       },
@@ -4866,7 +4866,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 2.6$, Output 13$, Cache 0.29$"
+      "tooltip": "Price Per 1M token -- Input 2.8$, Output 14$, Cache 0.29$"
     },
     {
       "id": "kwaipilot/kat-coder-pro-v2.5",
@@ -5023,6 +5023,18 @@
       "maxInputTokens": 204800,
       "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 0.27$, Output 1.08$, Cache 0.027$"
+    },
+    {
+      "id": "minimax/minimax-m2.7:free",
+      "name": "MiniMax M2.7 (free)",
+      "url": "https://openrouter.ai/api/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 196608,
+      "maxOutputTokens": 196608,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "minimax/minimax-m2.1",
