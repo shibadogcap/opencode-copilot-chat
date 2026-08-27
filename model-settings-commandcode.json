@@ -5,18 +5,6 @@
     "apiKey": "replace_with_your_api_key",
     "models": [
       {
-        "id": "stealth/ox-alpha",
-        "name": "Ox Alpha",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "poolside/laguna-s-2.1-free",
         "name": "Laguna S 2.1",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -25,6 +13,30 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 256000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "minimax/minimax-m3-free",
+        "name": "MiniMax M3",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "minimax/minimax-m2.7-free",
+        "name": "MiniMax M2.7",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": false,
+        "maxInputTokens": 197000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -99,6 +111,18 @@
         "maxInputTokens": 256000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.1$"
+      },
+      {
+        "id": "z-ai/glm-5.3-flash",
+        "name": "GLM-5.3 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
       },
       {
         "id": "zai-org/GLM-5.3",
@@ -303,6 +327,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.08$, Cache 0.5$"
+      },
+      {
+        "id": "Qwen/Qwen3.8-Flash",
+        "name": "Qwen 3.8 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.47$, Cache 0.016$"
       },
       {
         "id": "Qwen/Qwen3.7-Flash",
@@ -444,18 +480,6 @@
     "apiKey": "replace_with_your_api_key",
     "models": [
       {
-        "id": "stealth/ox-alpha",
-        "name": "Ox Alpha",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "poolside/laguna-s-2.1-free",
         "name": "Laguna S 2.1",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -464,6 +488,30 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 256000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "minimax/minimax-m3-free",
+        "name": "MiniMax M3",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "minimax/minimax-m2.7-free",
+        "name": "MiniMax M2.7",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": false,
+        "maxInputTokens": 197000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -538,6 +586,18 @@
         "maxInputTokens": 256000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.1$"
+      },
+      {
+        "id": "z-ai/glm-5.3-flash",
+        "name": "GLM-5.3 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
       },
       {
         "id": "zai-org/GLM-5.3",
@@ -742,6 +802,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.08$, Cache 0.5$"
+      },
+      {
+        "id": "Qwen/Qwen3.8-Flash",
+        "name": "Qwen 3.8 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.47$, Cache 0.016$"
       },
       {
         "id": "Qwen/Qwen3.7-Flash",
@@ -931,18 +1003,6 @@
     "apiKey": "replace_with_your_api_key",
     "models": [
       {
-        "id": "stealth/ox-alpha",
-        "name": "Ox Alpha",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "poolside/laguna-s-2.1-free",
         "name": "Laguna S 2.1",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -951,6 +1011,30 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 256000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "minimax/minimax-m3-free",
+        "name": "MiniMax M3",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "minimax/minimax-m2.7-free",
+        "name": "MiniMax M2.7",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": false,
+        "maxInputTokens": 197000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -1025,6 +1109,18 @@
         "maxInputTokens": 256000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.1$"
+      },
+      {
+        "id": "z-ai/glm-5.3-flash",
+        "name": "GLM-5.3 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
       },
       {
         "id": "zai-org/GLM-5.3",
@@ -1229,6 +1325,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.08$, Cache 0.5$"
+      },
+      {
+        "id": "Qwen/Qwen3.8-Flash",
+        "name": "Qwen 3.8 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.47$, Cache 0.016$"
       },
       {
         "id": "Qwen/Qwen3.7-Flash",
@@ -1574,18 +1682,6 @@
     "apiKey": "replace_with_your_api_key",
     "models": [
       {
-        "id": "stealth/ox-alpha",
-        "name": "Ox Alpha",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "poolside/laguna-s-2.1-free",
         "name": "Laguna S 2.1",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1594,6 +1690,30 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 256000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "minimax/minimax-m3-free",
+        "name": "MiniMax M3",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "minimax/minimax-m2.7-free",
+        "name": "MiniMax M2.7",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": false,
+        "maxInputTokens": 197000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -1668,6 +1788,18 @@
         "maxInputTokens": 256000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.1$"
+      },
+      {
+        "id": "z-ai/glm-5.3-flash",
+        "name": "GLM-5.3 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
       },
       {
         "id": "zai-org/GLM-5.3",
@@ -1872,6 +2004,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.08$, Cache 0.5$"
+      },
+      {
+        "id": "Qwen/Qwen3.8-Flash",
+        "name": "Qwen 3.8 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.47$, Cache 0.016$"
       },
       {
         "id": "Qwen/Qwen3.7-Flash",
@@ -2289,18 +2433,6 @@
     "apiKey": "replace_with_your_api_key",
     "models": [
       {
-        "id": "stealth/ox-alpha",
-        "name": "Ox Alpha",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "poolside/laguna-s-2.1-free",
         "name": "Laguna S 2.1",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2309,6 +2441,30 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 256000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "minimax/minimax-m3-free",
+        "name": "MiniMax M3",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "minimax/minimax-m2.7-free",
+        "name": "MiniMax M2.7",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": false,
+        "maxInputTokens": 197000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -2383,6 +2539,18 @@
         "maxInputTokens": 256000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.1$"
+      },
+      {
+        "id": "z-ai/glm-5.3-flash",
+        "name": "GLM-5.3 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
       },
       {
         "id": "zai-org/GLM-5.3",
@@ -2587,6 +2755,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.08$, Cache 0.5$"
+      },
+      {
+        "id": "Qwen/Qwen3.8-Flash",
+        "name": "Qwen 3.8 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.47$, Cache 0.016$"
       },
       {
         "id": "Qwen/Qwen3.7-Flash",
