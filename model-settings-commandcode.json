@@ -41,6 +41,18 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
+        "id": "tencent/hy4-preview",
+        "name": "Tencent Hy4 Preview",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
+      },
+      {
         "id": "tencent/hy3-paid",
         "name": "Tencent Hy3",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -514,6 +526,18 @@
         "maxInputTokens": 197000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "tencent/hy4-preview",
+        "name": "Tencent Hy4 Preview",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
       },
       {
         "id": "tencent/hy3-paid",
@@ -1037,6 +1061,18 @@
         "maxInputTokens": 197000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "tencent/hy4-preview",
+        "name": "Tencent Hy4 Preview",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
       },
       {
         "id": "tencent/hy3-paid",
@@ -1716,6 +1752,18 @@
         "maxInputTokens": 197000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "tencent/hy4-preview",
+        "name": "Tencent Hy4 Preview",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
       },
       {
         "id": "tencent/hy3-paid",
@@ -2467,6 +2515,18 @@
         "maxInputTokens": 197000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "tencent/hy4-preview",
+        "name": "Tencent Hy4 Preview",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
       },
       {
         "id": "tencent/hy3-paid",

@@ -181,6 +181,22 @@
       "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.04$, Cache 0.5$ | Price Over 256k tokens -- Input 1.2$, Output 4.8$, Cache 0.12$, Cache 1.5$"
     },
     {
+      "id": "qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$, Cache 0.2$"
+    },
+    {
       "id": "glm-5.3",
       "name": "GLM-5.3",
       "url": "https://opencode.ai/zen/go/v1",
