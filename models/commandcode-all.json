@@ -598,7 +598,7 @@
       "thinking": true,
       "maxInputTokens": 1048576,
       "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.75$, Output 3.75$, Cache 0.075$, Cache 0.04167$"
+      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$, Cache 0.08334$"
     },
     {
       "id": "google/gemini-3.6-flash",
