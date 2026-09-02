@@ -2090,6 +2090,18 @@
         "tooltip": "Price Per 1M token -- Input 0.6$, Output 2.4$, Cache 0.12$"
       },
       {
+        "id": "claude-fable-5-1",
+        "name": "Claude Fable 5.1",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 0.25$, Cache 12.5$"
+      },
+      {
         "id": "claude-fable-5",
         "name": "Claude Fable 5",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2839,6 +2851,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.6$, Output 2.4$, Cache 0.12$"
+      },
+      {
+        "id": "claude-fable-5-1",
+        "name": "Claude Fable 5.1",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 0.25$, Cache 12.5$"
       },
       {
         "id": "claude-fable-5",
