@@ -13,6 +13,18 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
+      "id": "meituan/LongCat-2.0:free",
+      "name": "LongCat 2.0",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "tencent/hy4-preview",
       "name": "Tencent Hy4 Preview",
       "url": "https://api.commandcode.ai/provider/v1",
@@ -251,6 +263,18 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 0.28$, Output 0.56$, Cache 0.07$"
+    },
+    {
+      "id": "Qwen/Qwen3.8-Max-0902",
+      "name": "Qwen 3.8 Max 0902",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.25$"
     },
     {
       "id": "Qwen/Qwen3.8-Max",
@@ -589,6 +613,18 @@
       "tooltip": "Price Per 1M token -- Input 2$, Output 8$, Cache 0.5$, Cache 0$"
     },
     {
+      "id": "google/gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$"
+    },
+    {
       "id": "google/gemini-3.7-flash",
       "name": "Gemini 3.7 Flash",
       "url": "https://api.commandcode.ai/provider/v1",
@@ -659,6 +695,30 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$"
+    },
+    {
+      "id": "meta/muse-spark-1.3",
+      "name": "Muse Spark 1.3",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 1.25$, Output 4.25$, Cache 0.15$"
+    },
+    {
+      "id": "meta/muse-spark-1.3-contributor",
+      "name": "Muse Spark 1.3 Contributor",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
     },
     {
       "id": "meta/muse-spark-1.2",
