@@ -534,7 +534,7 @@
       "url": "https://api.commandcode.ai/provider/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
+      "vision": true,
       "thinking": true,
       "maxInputTokens": 500000,
       "maxOutputTokens": 128000,
