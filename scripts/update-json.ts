@@ -9,6 +9,8 @@ import { exists, mkdir } from 'fs/promises';
 import { join } from 'path';
 
 const openCodeSessionKey = process.env.OPENCODE_API_KEY;
+const openCodeSessionId =
+  process.env.OPENCODE_SESSION_ID || crypto.randomUUID();
 
 if (!openCodeSessionKey) {
   console.warn('OPENCODE_API_KEY environment variable is not set.');
@@ -160,6 +162,13 @@ const providorModelInfo: ProvidorInfo[] = providors.data.providers
           ...(model.variants && Object.keys(model.variants).length > 0
             ? {
                 supportsReasoningEffort: Object.keys(model.variants),
+              }
+            : {}),
+          ...(model.api.url.includes('/zen/go/')
+            ? {
+                requestHeaders: {
+                  'x-opencode-session': openCodeSessionId,
+                },
               }
             : {}),
           tooltip: generateTooltip(model),

@@ -20,6 +20,12 @@ This project provides guides and settings JSON to add **opencode** and **Command
 - 📄 [Model Settings JSON (All-in-one)](/models/all.json)
 - 📄 [Model Settings JSON (With Provider Info)](/model-settings.json)
 
+OpenCode Go models include the required `x-opencode-session` request header. VS Code
+custom model settings currently accept a static header value, so this repository
+generates one UUID per catalog update by default. Set `OPENCODE_SESSION_ID` to a
+unique value before regenerating the catalog if you use more than one concurrent
+chat.
+
 ### CommandCode (plan-based, `go` < `goat` < `pro` < `max`)
 
 - 📄 [Go (34 models)](/models/commandcode-go.json) · [GOAT (38)](/models/commandcode-goat.json) · [Pro (51)](/models/commandcode-pro.json) · [Max (57)](/models/commandcode-max.json) · [All (57)](/models/commandcode-all.json)
@@ -61,6 +67,9 @@ bun install opencode-ai
 
 # Opencode
 bun run scripts/update-json.ts
+
+# Optional: use a separate stable header value for your VS Code configuration
+OPENCODE_SESSION_ID=00000000-0000-4000-8000-000000000000 bun run scripts/update-json.ts
 
 # CommandCode
 bun run scripts/update-commandcode.ts
