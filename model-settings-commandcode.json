@@ -254,7 +254,7 @@
         "thinking": true,
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -279,6 +279,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.28$, Output 0.56$, Cache 0.07$"
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "Qwen/Qwen3.8-Max-0902",
@@ -777,7 +789,7 @@
         "thinking": true,
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -802,6 +814,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.28$, Output 0.56$, Cache 0.07$"
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "Qwen/Qwen3.8-Max-0902",
@@ -1372,7 +1396,7 @@
         "thinking": true,
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -1397,6 +1421,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.28$, Output 0.56$, Cache 0.07$"
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "Qwen/Qwen3.8-Max-0902",
@@ -2123,7 +2159,7 @@
         "thinking": true,
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -2148,6 +2184,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.28$, Output 0.56$, Cache 0.07$"
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "Qwen/Qwen3.8-Max-0902",
@@ -2970,7 +3018,7 @@
         "thinking": true,
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -2995,6 +3043,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.28$, Output 0.56$, Cache 0.07$"
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "Qwen/Qwen3.8-Max-0902",
