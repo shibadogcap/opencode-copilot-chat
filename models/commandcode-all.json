@@ -262,7 +262,7 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
     {
       "id": "deepseek/deepseek-v4-flash-fast",
