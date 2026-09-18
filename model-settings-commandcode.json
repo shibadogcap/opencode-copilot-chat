@@ -293,6 +293,18 @@
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
+        "id": "Qwen/Qwen3.8-Omni-Flash",
+        "name": "Qwen 3.8 Omni Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$"
+      },
+      {
         "id": "Qwen/Qwen3.8-Max-0902",
         "name": "Qwen 3.8 Max 0902",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -826,6 +838,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
+      },
+      {
+        "id": "Qwen/Qwen3.8-Omni-Flash",
+        "name": "Qwen 3.8 Omni Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$"
       },
       {
         "id": "Qwen/Qwen3.8-Max-0902",
@@ -1433,6 +1457,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
+      },
+      {
+        "id": "Qwen/Qwen3.8-Omni-Flash",
+        "name": "Qwen 3.8 Omni Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$"
       },
       {
         "id": "Qwen/Qwen3.8-Max-0902",
@@ -2196,6 +2232,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
+      },
+      {
+        "id": "Qwen/Qwen3.8-Omni-Flash",
+        "name": "Qwen 3.8 Omni Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$"
       },
       {
         "id": "Qwen/Qwen3.8-Max-0902",
@@ -3055,6 +3103,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
+      },
+      {
+        "id": "Qwen/Qwen3.8-Omni-Flash",
+        "name": "Qwen 3.8 Omni Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$"
       },
       {
         "id": "Qwen/Qwen3.8-Max-0902",
