@@ -17,18 +17,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "meituan/LongCat-2.0:free",
-        "name": "LongCat 2.0",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "inclusionai/ling-3.0-flash-sante:free",
         "name": "Ling 3.0 Flash Sante",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -135,6 +123,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
+      },
+      {
+        "id": "z-ai/glm-5.3-flashx",
+        "name": "GLM-5.3 FlashX",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.37$, Output 1.25$, Cache 0.075$"
       },
       {
         "id": "zai-org/GLM-5.3",
@@ -411,6 +411,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.13$, Cache 0.006$, Cache 0.038$"
+      },
+      {
+        "id": "meituan/LongCat-2.0",
+        "name": "LongCat 2.0",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
         "id": "stepfun/Step-3.7-Flash",
@@ -564,18 +576,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "meituan/LongCat-2.0:free",
-        "name": "LongCat 2.0",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "inclusionai/ling-3.0-flash-sante:free",
         "name": "Ling 3.0 Flash Sante",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -682,6 +682,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
+      },
+      {
+        "id": "z-ai/glm-5.3-flashx",
+        "name": "GLM-5.3 FlashX",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.37$, Output 1.25$, Cache 0.075$"
       },
       {
         "id": "zai-org/GLM-5.3",
@@ -958,6 +970,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.13$, Cache 0.006$, Cache 0.038$"
+      },
+      {
+        "id": "meituan/LongCat-2.0",
+        "name": "LongCat 2.0",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
         "id": "stepfun/Step-3.7-Flash",
@@ -1183,18 +1207,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "meituan/LongCat-2.0:free",
-        "name": "LongCat 2.0",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "inclusionai/ling-3.0-flash-sante:free",
         "name": "Ling 3.0 Flash Sante",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1301,6 +1313,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
+      },
+      {
+        "id": "z-ai/glm-5.3-flashx",
+        "name": "GLM-5.3 FlashX",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.37$, Output 1.25$, Cache 0.075$"
       },
       {
         "id": "zai-org/GLM-5.3",
@@ -1577,6 +1601,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.13$, Cache 0.006$, Cache 0.038$"
+      },
+      {
+        "id": "meituan/LongCat-2.0",
+        "name": "LongCat 2.0",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
         "id": "stepfun/Step-3.7-Flash",
@@ -1958,18 +1994,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "meituan/LongCat-2.0:free",
-        "name": "LongCat 2.0",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "inclusionai/ling-3.0-flash-sante:free",
         "name": "Ling 3.0 Flash Sante",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2076,6 +2100,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
+      },
+      {
+        "id": "z-ai/glm-5.3-flashx",
+        "name": "GLM-5.3 FlashX",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.37$, Output 1.25$, Cache 0.075$"
       },
       {
         "id": "zai-org/GLM-5.3",
@@ -2352,6 +2388,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.13$, Cache 0.006$, Cache 0.038$"
+      },
+      {
+        "id": "meituan/LongCat-2.0",
+        "name": "LongCat 2.0",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
         "id": "stepfun/Step-3.7-Flash",
@@ -2829,18 +2877,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "meituan/LongCat-2.0:free",
-        "name": "LongCat 2.0",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "inclusionai/ling-3.0-flash-sante:free",
         "name": "Ling 3.0 Flash Sante",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2947,6 +2983,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
+      },
+      {
+        "id": "z-ai/glm-5.3-flashx",
+        "name": "GLM-5.3 FlashX",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.37$, Output 1.25$, Cache 0.075$"
       },
       {
         "id": "zai-org/GLM-5.3",
@@ -3223,6 +3271,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.13$, Cache 0.006$, Cache 0.038$"
+      },
+      {
+        "id": "meituan/LongCat-2.0",
+        "name": "LongCat 2.0",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
         "id": "stepfun/Step-3.7-Flash",
