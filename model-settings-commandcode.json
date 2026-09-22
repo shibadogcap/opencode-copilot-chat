@@ -425,6 +425,18 @@
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
+        "id": "stepfun/Step-5-Preview",
+        "name": "Step 5 Preview",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1$, Output 2.7$, Cache 0.05$"
+      },
+      {
         "id": "stepfun/Step-3.7-Flash",
         "name": "Step 3.7 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -447,6 +459,30 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.02$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-pro",
+        "name": "MiMo V2.6 Pro",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.0036$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo V2.6 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
       },
       {
         "id": "xiaomi/mimo-v2.5-pro",
@@ -984,6 +1020,18 @@
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
+        "id": "stepfun/Step-5-Preview",
+        "name": "Step 5 Preview",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1$, Output 2.7$, Cache 0.05$"
+      },
+      {
         "id": "stepfun/Step-3.7-Flash",
         "name": "Step 3.7 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1006,6 +1054,42 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.02$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-pro",
+        "name": "MiMo V2.6 Pro",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.0036$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+        "name": "MiMo V2.6 Pro UltraSpeed",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 4.35$, Output 8.7$, Cache 0.036$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo V2.6 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
       },
       {
         "id": "xiaomi/mimo-v2.5-pro",
@@ -1138,6 +1222,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
+      },
+      {
+        "id": "xai/grok-4.7",
+        "name": "Grok 4.7",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 500000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1.2$, Output 3.6$, Cache 0.3$"
       },
       {
         "id": "xai/grok-4.6",
@@ -1615,6 +1711,18 @@
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
+        "id": "stepfun/Step-5-Preview",
+        "name": "Step 5 Preview",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1$, Output 2.7$, Cache 0.05$"
+      },
+      {
         "id": "stepfun/Step-3.7-Flash",
         "name": "Step 3.7 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1637,6 +1745,42 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.02$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-pro",
+        "name": "MiMo V2.6 Pro",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.0036$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+        "name": "MiMo V2.6 Pro UltraSpeed",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 4.35$, Output 8.7$, Cache 0.036$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo V2.6 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
       },
       {
         "id": "xiaomi/mimo-v2.5-pro",
@@ -1925,6 +2069,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 1.25$, Output 4.25$, Cache 0.15$"
+      },
+      {
+        "id": "xai/grok-4.7",
+        "name": "Grok 4.7",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 500000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1.2$, Output 3.6$, Cache 0.3$"
       },
       {
         "id": "xai/grok-4.6",
@@ -2402,6 +2558,18 @@
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
+        "id": "stepfun/Step-5-Preview",
+        "name": "Step 5 Preview",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1$, Output 2.7$, Cache 0.05$"
+      },
+      {
         "id": "stepfun/Step-3.7-Flash",
         "name": "Step 3.7 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2424,6 +2592,42 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.02$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-pro",
+        "name": "MiMo V2.6 Pro",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.0036$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+        "name": "MiMo V2.6 Pro UltraSpeed",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 4.35$, Output 8.7$, Cache 0.036$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo V2.6 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
       },
       {
         "id": "xiaomi/mimo-v2.5-pro",
@@ -2796,6 +3000,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 1.25$, Output 4.25$, Cache 0.15$"
+      },
+      {
+        "id": "xai/grok-4.7",
+        "name": "Grok 4.7",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 500000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1.2$, Output 3.6$, Cache 0.3$"
       },
       {
         "id": "xai/grok-4.6",
@@ -3285,6 +3501,18 @@
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
+        "id": "stepfun/Step-5-Preview",
+        "name": "Step 5 Preview",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1$, Output 2.7$, Cache 0.05$"
+      },
+      {
         "id": "stepfun/Step-3.7-Flash",
         "name": "Step 3.7 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -3307,6 +3535,42 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.02$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-pro",
+        "name": "MiMo V2.6 Pro",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.0036$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+        "name": "MiMo V2.6 Pro UltraSpeed",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 4.35$, Output 8.7$, Cache 0.036$"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo V2.6 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
       },
       {
         "id": "xiaomi/mimo-v2.5-pro",
@@ -3679,6 +3943,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 1.25$, Output 4.25$, Cache 0.15$"
+      },
+      {
+        "id": "xai/grok-4.7",
+        "name": "Grok 4.7",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 500000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1.2$, Output 3.6$, Cache 0.3$"
       },
       {
         "id": "xai/grok-4.6",
