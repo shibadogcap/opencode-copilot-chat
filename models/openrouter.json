@@ -856,7 +856,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.8$, Cache 0.008$"
+      "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.4$, Cache 0.01$"
     },
     {
       "id": "~deepseek/deepseek-pro-latest",
@@ -873,7 +873,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.558624$, Output 1.675872$, Cache 0.018621$"
+      "tooltip": "Price Per 1M token -- Input 0.53856$, Output 1.61568$, Cache 0.017952$"
     },
     {
       "id": "~deepseek/deepseek-flash-latest",
@@ -3063,7 +3063,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.32$, Output 3.96$, Cache 0.044$"
+      "tooltip": "Price Per 1M token -- Input 0.66$, Output 1.98$, Cache 0.022$"
     },
     {
       "id": "deepseek/deepseek-v4-flash-0731",
@@ -3096,7 +3096,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.088606$, Output 0.177212$, Cache 0.017721$"
+      "tooltip": "Price Per 1M token -- Input 0.05544$, Output 0.11088$, Cache 0.011088$"
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -3113,7 +3113,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
     {
       "id": "deepseek/deepseek-r1",
@@ -3213,7 +3213,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.95526$, Output 1.91052$, Cache 0.079605$"
+      "tooltip": "Price Per 1M token -- Input 0.892272$, Output 1.784544$, Cache 0.074356$"
     },
     {
       "id": "deepseek/deepseek-chat-v3-0324",
@@ -3788,7 +3788,7 @@
       "thinking": false,
       "maxInputTokens": 1048576,
       "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 0.1875$, Output 0.6525$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.2$, Output 0.8$, Cache 0$"
     },
     {
       "id": "meta-llama/llama-4-scout",
@@ -4851,7 +4851,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.7$, Output 2.2$, Cache 0.13$"
+      "tooltip": "Price Per 1M token -- Input 0.7728$, Output 2.4288$, Cache 0.14352$"
     },
     {
       "id": "moonshotai/kimi-k2-0905",
@@ -5119,7 +5119,7 @@
         "low",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.132$, Output 0.528$, Cache 0.033$"
+      "tooltip": "Price Per 1M token -- Input 0.0825$, Output 0.33$, Cache 0.020625$"
     },
     {
       "id": "tencent/hy4-preview",
@@ -5409,7 +5409,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.7$, Output 2.2$, Cache 0.13$"
+      "tooltip": "Price Per 1M token -- Input 0.91$, Output 2.86$, Cache 0.169$"
     },
     {
       "id": "z-ai/glm-5v-turbo",

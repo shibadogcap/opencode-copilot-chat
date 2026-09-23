@@ -565,6 +565,30 @@
       "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.1$, Cache 1.25$"
     },
     {
+      "id": "gpt-6-sol",
+      "name": "GPT-6 Sol",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.5$, Cache 0.01$, Cache 0.125$"
+    },
+    {
       "id": "gpt-5.6-sol",
       "name": "GPT-5.6 Sol",
       "url": "https://api.commandcode.ai/provider/v1",
@@ -839,5 +863,17 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.2$, Cache 0.1$"
+    },
+    {
+      "id": "typesafe/jev",
+      "name": "Jev",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 32000,
+      "maxOutputTokens": 32000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     }
   ]
