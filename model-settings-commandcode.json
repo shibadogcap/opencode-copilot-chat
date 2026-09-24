@@ -5,6 +5,18 @@
     "apiKey": "replace_with_your_api_key",
     "models": [
       {
+        "id": "stealth/space-bunny-alpha",
+        "name": "Space Bunny Alpha",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
         "id": "poolside/laguna-s-2.1-free",
         "name": "Laguna S 2.1",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -611,6 +623,18 @@
     "vendor": "customendpoint",
     "apiKey": "replace_with_your_api_key",
     "models": [
+      {
+        "id": "stealth/space-bunny-alpha",
+        "name": "Space Bunny Alpha",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
       {
         "id": "poolside/laguna-s-2.1-free",
         "name": "Laguna S 2.1",
@@ -1326,6 +1350,18 @@
     "vendor": "customendpoint",
     "apiKey": "replace_with_your_api_key",
     "models": [
+      {
+        "id": "stealth/space-bunny-alpha",
+        "name": "Space Bunny Alpha",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
       {
         "id": "poolside/laguna-s-2.1-free",
         "name": "Laguna S 2.1",
@@ -2209,6 +2245,18 @@
     "vendor": "customendpoint",
     "apiKey": "replace_with_your_api_key",
     "models": [
+      {
+        "id": "stealth/space-bunny-alpha",
+        "name": "Space Bunny Alpha",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
       {
         "id": "poolside/laguna-s-2.1-free",
         "name": "Laguna S 2.1",
@@ -3200,6 +3248,18 @@
     "vendor": "customendpoint",
     "apiKey": "replace_with_your_api_key",
     "models": [
+      {
+        "id": "stealth/space-bunny-alpha",
+        "name": "Space Bunny Alpha",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
       {
         "id": "poolside/laguna-s-2.1-free",
         "name": "Laguna S 2.1",

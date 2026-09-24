@@ -42,7 +42,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 65536,
-      "maxOutputTokens": 65536,
+      "maxOutputTokens": 4096,
       "supportsReasoningEffort": [
         "minimal",
         "high"
@@ -93,7 +93,7 @@
       "toolCalling": false,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 131072,
+      "maxInputTokens": 65536,
       "maxOutputTokens": 32768,
       "supportsReasoningEffort": [
         "low",
@@ -154,8 +154,8 @@
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 65536,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 64000,
       "tooltip": "Price Per 1M token -- Input 1.25$, Output 10$, Cache 0$ | Price Over 200k tokens -- Input 2.5$, Output 15$, Cache 0$"
     },
     {
@@ -298,8 +298,8 @@
       "toolCalling": false,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 65536,
-      "maxOutputTokens": 65536,
+      "maxInputTokens": 131072,
+      "maxOutputTokens": 32768,
       "supportsReasoningEffort": [
         "minimal",
         "high"
