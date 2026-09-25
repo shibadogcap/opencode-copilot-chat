@@ -468,9 +468,9 @@
         "toolCalling": true,
         "vision": false,
         "thinking": true,
-        "maxInputTokens": 1000000,
+        "maxInputTokens": 262144,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.02$"
+        "tooltip": "Price Per 1M token -- Input 0.09$, Output 0.3$, Cache 0.02$"
       },
       {
         "id": "xiaomi/mimo-v2.6-pro",
@@ -1087,9 +1087,9 @@
         "toolCalling": true,
         "vision": false,
         "thinking": true,
-        "maxInputTokens": 1000000,
+        "maxInputTokens": 262144,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.02$"
+        "tooltip": "Price Per 1M token -- Input 0.09$, Output 0.3$, Cache 0.02$"
       },
       {
         "id": "xiaomi/mimo-v2.6-pro",
@@ -1341,7 +1341,7 @@
         "thinking": false,
         "maxInputTokens": 32000,
         "maxOutputTokens": 32000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+        "tooltip": "Price Per 1M token -- Input 0.042$, Output 0$, Cache 0$"
       }
     ]
   },
@@ -1814,9 +1814,9 @@
         "toolCalling": true,
         "vision": false,
         "thinking": true,
-        "maxInputTokens": 1000000,
+        "maxInputTokens": 262144,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.02$"
+        "tooltip": "Price Per 1M token -- Input 0.09$, Output 0.3$, Cache 0.02$"
       },
       {
         "id": "xiaomi/mimo-v2.6-pro",
@@ -2236,7 +2236,7 @@
         "thinking": false,
         "maxInputTokens": 32000,
         "maxOutputTokens": 32000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+        "tooltip": "Price Per 1M token -- Input 0.042$, Output 0$, Cache 0$"
       }
     ]
   },
@@ -2709,9 +2709,9 @@
         "toolCalling": true,
         "vision": false,
         "thinking": true,
-        "maxInputTokens": 1000000,
+        "maxInputTokens": 262144,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.02$"
+        "tooltip": "Price Per 1M token -- Input 0.09$, Output 0.3$, Cache 0.02$"
       },
       {
         "id": "xiaomi/mimo-v2.6-pro",
@@ -3227,7 +3227,7 @@
         "thinking": false,
         "maxInputTokens": 32000,
         "maxOutputTokens": 32000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+        "tooltip": "Price Per 1M token -- Input 0.042$, Output 0$, Cache 0$"
       },
       {
         "id": "claude-haiku-4-5-20251001",
@@ -3712,9 +3712,9 @@
         "toolCalling": true,
         "vision": false,
         "thinking": true,
-        "maxInputTokens": 1000000,
+        "maxInputTokens": 262144,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.02$"
+        "tooltip": "Price Per 1M token -- Input 0.09$, Output 0.3$, Cache 0.02$"
       },
       {
         "id": "xiaomi/mimo-v2.6-pro",
@@ -4230,7 +4230,7 @@
         "thinking": false,
         "maxInputTokens": 32000,
         "maxOutputTokens": 32000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+        "tooltip": "Price Per 1M token -- Input 0.042$, Output 0$, Cache 0$"
       },
       {
         "id": "claude-haiku-4-5-20251001",

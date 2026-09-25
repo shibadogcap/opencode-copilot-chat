@@ -1,6 +1,21 @@
 
   "models": [
     {
+      "id": "mimo-v2.6-pro",
+      "name": "MiMo-V2.6-Pro",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.003625$"
+    },
+    {
       "id": "qwen3.7-max",
       "name": "Qwen3.7 Max",
       "url": "https://opencode.ai/zen/go/v1",
@@ -11,29 +26,126 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 65536,
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 7.5$, Cache 0.5$, Cache 3.125$"
     },
     {
-      "id": "longcat-2.0",
-      "name": "LongCat-2.0",
+      "id": "mimo-v2.5",
+      "name": "MiMo V2.5",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
+    },
+    {
+      "id": "grok-4.7",
+      "name": "Grok 4.7",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 500000,
+      "maxOutputTokens": 500000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
+    },
+    {
+      "id": "glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
+    },
+    {
+      "id": "qwen3.8-max",
+      "name": "Qwen3.8 Max",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "medium",
-        "high"
+        "xhigh"
       ],
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.25$, Cache 2.5$"
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modelOptions": {
+        "top_p": null
+      },
+      "supportsReasoningEffort": [
+        "max"
+      ],
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$"
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
     {
       "id": "deepseek-v4-flash-vision-exp",
@@ -51,24 +163,62 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
     {
-      "id": "qwen3.6-plus",
-      "name": "Qwen3.6 Plus",
+      "id": "kimi-k2.6",
+      "name": "Kimi K2.6",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 1000000,
+      "maxInputTokens": 262144,
       "maxOutputTokens": 65536,
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+      "modelOptions": {
+        "top_p": null
       },
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$, Cache 0.625$ | Price Over 256k tokens -- Input 2$, Output 6$, Cache 0.2$, Cache 2.5$"
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.16$"
+    },
+    {
+      "id": "longcat-2.0",
+      "name": "LongCat-2.0",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+    },
+    {
+      "id": "minimax-m2.7",
+      "name": "MiniMax-M2.7",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 204800,
+      "maxOutputTokens": 131072,
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$, Cache 0.375$"
     },
     {
       "id": "space-bunny-free",
@@ -88,98 +238,39 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "muse-spark-1.2-contributor",
-      "name": "Muse Spark 1.2 Contributor",
+      "id": "mimo-v2.5-pro",
+      "name": "MiMo V2.5 Pro",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": true,
+      "vision": false,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "minimal",
-        "low",
-        "medium",
-        "high",
-        "xhigh"
-      ],
+      "maxOutputTokens": 128000,
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
-    },
-    {
-      "id": "mimo-v2.6-pro",
-      "name": "MiMo-V2.6-Pro",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
       "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.003625$"
     },
     {
-      "id": "minimax-m2.7",
-      "name": "MiniMax-M2.7",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 204800,
-      "maxOutputTokens": 131072,
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$, Cache 0.375$"
-    },
-    {
-      "id": "kimi-k2.6",
-      "name": "Kimi K2.6",
+      "id": "mimo-v2.6-flash",
+      "name": "MiMo-V2.6-Flash",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 65536,
-      "modelOptions": {
-        "top_p": null
-      },
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.16$"
-    },
-    {
-      "id": "glm-5.2",
-      "name": "GLM-5.2",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1000000,
+      "maxInputTokens": 1048576,
       "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "high",
-        "max"
-      ],
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
-      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
     },
     {
       "id": "minimax-m3",
@@ -196,129 +287,9 @@
         "thinking"
       ],
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$ | Price Over 512k tokens -- Input 0.6$, Output 2.4$, Cache 0.12$"
-    },
-    {
-      "id": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 384000,
-      "supportsReasoningEffort": [
-        "low",
-        "high",
-        "max"
-      ],
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
-    },
-    {
-      "id": "kimi-k2.7-code",
-      "name": "Kimi K2.7 Code",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 262144,
-      "modelOptions": {
-        "top_p": null
-      },
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.19$"
-    },
-    {
-      "id": "deepseek-v4.1-flash",
-      "name": "DeepSeek V4.1 Flash",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 384000,
-      "supportsReasoningEffort": [
-        "low",
-        "high",
-        "max"
-      ],
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
-    },
-    {
-      "id": "hy3",
-      "name": "Hy3",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "none",
-        "low",
-        "high"
-      ],
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.58$, Cache 0.035$"
-    },
-    {
-      "id": "hy4-preview",
-      "name": "Hy4 preview",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1024000,
-      "maxOutputTokens": 64000,
-      "supportsReasoningEffort": [
-        "none",
-        "high"
-      ],
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
-    },
-    {
-      "id": "gpt-6-luna",
-      "name": "GPT-6 Luna",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1050000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "none",
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.5$, Cache 0.01$, Cache 0.125$ | Price Over 272k tokens -- Input 0.2$, Output 0.75$, Cache 0.02$, Cache 0.25$"
     },
     {
       "id": "gpt-5.6-luna",
@@ -339,36 +310,15 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
       "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.2$, Cache 0.02$, Cache 0.25$ | Price Over 272k tokens -- Input 0.4$, Output 1.8$, Cache 0.04$, Cache 0.5$"
     },
     {
-      "id": "kimi-k3",
-      "name": "Kimi K3",
+      "id": "qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
       "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "modelOptions": {
-        "top_p": null
-      },
-      "supportsReasoningEffort": [
-        "max"
-      ],
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$"
-    },
-    {
-      "id": "glm-5.3-flash",
-      "name": "GLM-5.3-Flash",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
+      "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
@@ -376,13 +326,165 @@
       "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
+        "medium",
+        "xhigh"
+      ],
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$, Cache 0.2$"
+    },
+    {
+      "id": "glm-5.2",
+      "name": "GLM-5.2",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
         "high",
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
+      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+    },
+    {
+      "id": "hy3",
+      "name": "Hy3",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "high"
+      ],
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.58$, Cache 0.035$"
+    },
+    {
+      "id": "glm-5.1",
+      "name": "GLM-5.1",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 202752,
+      "maxOutputTokens": 32768,
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+    },
+    {
+      "id": "muse-spark-1.2-contributor",
+      "name": "Muse Spark 1.2 Contributor",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.5$, Cache 0.01$, Cache 0.125$ | Price Over 272k tokens -- Input 0.2$, Output 0.75$, Cache 0.02$, Cache 0.25$"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro (New)",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.66$, Output 1.98$, Cache 0.022$"
+    },
+    {
+      "id": "qwen3.6-plus",
+      "name": "Qwen3.6 Plus",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 65536,
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$, Cache 0.625$ | Price Over 256k tokens -- Input 2$, Output 6$, Cache 0.2$, Cache 2.5$"
+    },
+    {
+      "id": "hy4-preview",
+      "name": "Hy4 preview",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1024000,
+      "maxOutputTokens": 64000,
+      "supportsReasoningEffort": [
+        "none",
+        "high"
+      ],
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
     },
     {
       "id": "muse-spark-1.3-contributor",
@@ -402,44 +504,47 @@
         "xhigh"
       ],
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
     },
     {
-      "id": "qwen3.8-flash",
-      "name": "Qwen3.8 Flash",
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
       "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "messages",
+      "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": true,
+      "vision": false,
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
-        "medium",
-        "xhigh"
+        "high",
+        "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$, Cache 0.2$"
+      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
     },
     {
-      "id": "mimo-v2.6-flash",
-      "name": "MiMo-V2.6-Flash",
+      "id": "kimi-k2.7-code",
+      "name": "Kimi K2.7 Code",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modelOptions": {
+        "top_p": null
       },
-      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
+      "requestHeaders": {
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
+      },
+      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.19$"
     },
     {
       "id": "grok-4.6",
@@ -458,44 +563,9 @@
         "xhigh"
       ],
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
-    },
-    {
-      "id": "qwen3.8-max",
-      "name": "Qwen3.8 Max",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "xhigh"
-      ],
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.25$, Cache 2.5$"
-    },
-    {
-      "id": "glm-5.1",
-      "name": "GLM-5.1",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 202752,
-      "maxOutputTokens": 32768,
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
     },
     {
       "id": "qwen3.7-plus",
@@ -508,13 +578,13 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 65536,
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
       "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.04$, Cache 0.5$ | Price Over 256k tokens -- Input 1.2$, Output 4.8$, Cache 0.12$, Cache 1.5$"
     },
     {
-      "id": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro (New)",
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -523,83 +593,13 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 384000,
       "supportsReasoningEffort": [
-        "high",
-        "max"
-      ],
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.66$, Output 1.98$, Cache 0.022$"
-    },
-    {
-      "id": "glm-5.3",
-      "name": "GLM-5.3",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
+        "x-opencode-session": "867eba56-3856-4708-b758-4559d0bb917b"
       },
-      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
-    },
-    {
-      "id": "grok-4.7",
-      "name": "Grok 4.7",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 500000,
-      "maxOutputTokens": 500000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high",
-        "xhigh"
-      ],
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
-    },
-    {
-      "id": "mimo-v2.5",
-      "name": "MiMo V2.5",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 128000,
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
-    },
-    {
-      "id": "mimo-v2.5-pro",
-      "name": "MiMo V2.5 Pro",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 128000,
-      "requestHeaders": {
-        "x-opencode-session": "5c1de0f5-0f2f-4dad-86b0-feacd81accd3"
-      },
-      "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.003625$"
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     }
   ]
