@@ -17,6 +17,18 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
+        "id": "stealth/pixel-canary",
+        "name": "Pixel Canary",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
         "id": "poolside/laguna-s-2.1-free",
         "name": "Laguna S 2.1",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -632,6 +644,18 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "stealth/pixel-canary",
+        "name": "Pixel Canary",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -1359,6 +1383,18 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "stealth/pixel-canary",
+        "name": "Pixel Canary",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -2254,6 +2290,18 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "stealth/pixel-canary",
+        "name": "Pixel Canary",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -3257,6 +3305,18 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "stealth/pixel-canary",
+        "name": "Pixel Canary",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
