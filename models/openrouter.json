@@ -649,13 +649,13 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 384000,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.02975$, Output 0.6$, Cache 0.02678$"
+      "tooltip": "Price Per 1M token -- Input 0.035$, Output 0.29$, Cache 0.001$"
     },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -2206,13 +2206,13 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 384000,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.02975$, Output 0.6$, Cache 0.02678$"
+      "tooltip": "Price Per 1M token -- Input 0.035$, Output 0.29$, Cache 0.001$"
     },
     {
       "id": "~deepseek/deepseek-pro-latest",

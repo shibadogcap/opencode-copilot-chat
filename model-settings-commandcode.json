@@ -317,6 +317,18 @@
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
+        "id": "deepseek/deepseek-v4.1-flash-fast",
+        "name": "DeepSeek V4.1 Flash Fast",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.58$, Cache 0.016$"
+      },
+      {
         "id": "Qwen/Qwen3.8-Omni-Flash",
         "name": "Qwen 3.8 Omni Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -948,6 +960,18 @@
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
+        "id": "deepseek/deepseek-v4.1-flash-fast",
+        "name": "DeepSeek V4.1 Flash Fast",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.58$, Cache 0.016$"
+      },
+      {
         "id": "Qwen/Qwen3.8-Omni-Flash",
         "name": "Qwen 3.8 Omni Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1188,6 +1212,18 @@
         "tooltip": "Price Per 1M token -- Input 0.6$, Output 2.4$, Cache 0.12$"
       },
       {
+        "id": "claude-sonnet-5-5",
+        "name": "Claude Sonnet 5.5",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+      },
+      {
         "id": "gpt-6-luna",
         "name": "GPT-6 Luna",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1305,7 +1341,7 @@
         "thinking": true,
         "maxInputTokens": 500000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 1.2$, Output 3.6$, Cache 0.3$"
+        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$"
       },
       {
         "id": "xai/grok-4.6",
@@ -1687,6 +1723,18 @@
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
+        "id": "deepseek/deepseek-v4.1-flash-fast",
+        "name": "DeepSeek V4.1 Flash Fast",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.58$, Cache 0.016$"
+      },
+      {
         "id": "Qwen/Qwen3.8-Omni-Flash",
         "name": "Qwen 3.8 Omni Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1925,6 +1973,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.6$, Output 2.4$, Cache 0.12$"
+      },
+      {
+        "id": "claude-sonnet-5-5",
+        "name": "Claude Sonnet 5.5",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
       },
       {
         "id": "claude-sonnet-5",
@@ -2212,7 +2272,7 @@
         "thinking": true,
         "maxInputTokens": 500000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 1.2$, Output 3.6$, Cache 0.3$"
+        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$"
       },
       {
         "id": "xai/grok-4.6",
@@ -2594,6 +2654,18 @@
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
+        "id": "deepseek/deepseek-v4.1-flash-fast",
+        "name": "DeepSeek V4.1 Flash Fast",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.58$, Cache 0.016$"
+      },
+      {
         "id": "Qwen/Qwen3.8-Omni-Flash",
         "name": "Qwen 3.8 Omni Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2906,6 +2978,18 @@
         "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
       },
       {
+        "id": "claude-sonnet-5-5",
+        "name": "Claude Sonnet 5.5",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+      },
+      {
         "id": "claude-sonnet-5",
         "name": "Claude Sonnet 5",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -3215,7 +3299,7 @@
         "thinking": true,
         "maxInputTokens": 500000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 1.2$, Output 3.6$, Cache 0.3$"
+        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$"
       },
       {
         "id": "xai/grok-4.6",
@@ -3609,6 +3693,18 @@
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
+        "id": "deepseek/deepseek-v4.1-flash-fast",
+        "name": "DeepSeek V4.1 Flash Fast",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.58$, Cache 0.016$"
+      },
+      {
         "id": "Qwen/Qwen3.8-Omni-Flash",
         "name": "Qwen 3.8 Omni Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -3921,6 +4017,18 @@
         "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
       },
       {
+        "id": "claude-sonnet-5-5",
+        "name": "Claude Sonnet 5.5",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+      },
+      {
         "id": "claude-sonnet-5",
         "name": "Claude Sonnet 5",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -4230,7 +4338,7 @@
         "thinking": true,
         "maxInputTokens": 500000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 1.2$, Output 3.6$, Cache 0.3$"
+        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$"
       },
       {
         "id": "xai/grok-4.6",
