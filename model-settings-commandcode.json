@@ -53,6 +53,18 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
+        "id": "inclusionai/ling-3.1-flash:free",
+        "name": "Ling 3.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
         "id": "tencent/hy4-preview",
         "name": "Tencent Hy4 Preview",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -686,6 +698,18 @@
       {
         "id": "inclusionai/ling-3.0-flash-sante:free",
         "name": "Ling 3.0 Flash Sante",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash:free",
+        "name": "Ling 3.1 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
         "apiType": "chat-completions",
         "toolCalling": true,
@@ -1449,6 +1473,18 @@
       {
         "id": "inclusionai/ling-3.0-flash-sante:free",
         "name": "Ling 3.0 Flash Sante",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash:free",
+        "name": "Ling 3.1 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
         "apiType": "chat-completions",
         "toolCalling": true,
@@ -2390,6 +2426,18 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
+        "id": "inclusionai/ling-3.1-flash:free",
+        "name": "Ling 3.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
         "id": "tencent/hy4-preview",
         "name": "Tencent Hy4 Preview",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -3036,6 +3084,18 @@
         "maxInputTokens": 1050000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$"
+      },
+      {
+        "id": "gpt-6.1-sol",
+        "name": "GPT-6.1 Sol",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
       },
       {
         "id": "gpt-6-sol",
@@ -3429,6 +3489,18 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
+        "id": "inclusionai/ling-3.1-flash:free",
+        "name": "Ling 3.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
         "id": "tencent/hy4-preview",
         "name": "Tencent Hy4 Preview",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -4075,6 +4147,18 @@
         "maxInputTokens": 1050000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$"
+      },
+      {
+        "id": "gpt-6.1-sol",
+        "name": "GPT-6.1 Sol",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
       },
       {
         "id": "gpt-6-sol",
