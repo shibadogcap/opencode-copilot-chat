@@ -37,6 +37,23 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$"
     },
     {
+      "id": "fledge-alpha-free",
+      "name": "Fledge Alpha Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "claude-haiku-4-5",
       "name": "Claude Haiku 4.5",
       "url": "https://opencode.ai/zen/v1",
@@ -1356,7 +1373,7 @@
       "maxInputTokens": 1048576,
       "maxOutputTokens": 131072,
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.003625$"
     },
@@ -1371,7 +1388,7 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
     },
@@ -1392,7 +1409,7 @@
         "xhigh"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
@@ -1412,7 +1429,7 @@
         "high"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
@@ -1432,7 +1449,7 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
     },
@@ -1452,7 +1469,7 @@
         "xhigh"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.25$, Cache 2.5$"
     },
@@ -1473,7 +1490,7 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$"
     },
@@ -1493,7 +1510,7 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
@@ -1513,7 +1530,7 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
@@ -1533,7 +1550,7 @@
         "high"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
     },
@@ -1548,7 +1565,7 @@
       "maxInputTokens": 204800,
       "maxOutputTokens": 131072,
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$, Cache 0.375$"
     },
@@ -1570,7 +1587,7 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
@@ -1585,7 +1602,7 @@
       "maxInputTokens": 1048576,
       "maxOutputTokens": 128000,
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.003625$"
     },
@@ -1600,7 +1617,7 @@
       "maxInputTokens": 1048576,
       "maxOutputTokens": 131072,
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
     },
@@ -1619,7 +1636,7 @@
         "thinking"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$ | Price Over 512k tokens -- Input 0.6$, Output 2.4$, Cache 0.12$"
     },
@@ -1642,7 +1659,7 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.2$, Cache 0.02$, Cache 0.25$ | Price Over 272k tokens -- Input 0.4$, Output 1.8$, Cache 0.04$, Cache 0.5$"
     },
@@ -1662,7 +1679,7 @@
         "xhigh"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$, Cache 0.2$"
     },
@@ -1681,7 +1698,7 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
     },
@@ -1701,7 +1718,7 @@
         "high"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.58$, Cache 0.035$"
     },
@@ -1723,7 +1740,7 @@
         "xhigh"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
     },
@@ -1746,7 +1763,7 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.5$, Cache 0.01$, Cache 0.125$ | Price Over 272k tokens -- Input 0.2$, Output 0.75$, Cache 0.02$, Cache 0.25$"
     },
@@ -1765,7 +1782,7 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.66$, Output 1.98$, Cache 0.022$"
     },
@@ -1784,7 +1801,7 @@
         "high"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
     },
@@ -1806,7 +1823,7 @@
         "xhigh"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
     },
@@ -1826,7 +1843,7 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
     },
@@ -1844,7 +1861,7 @@
         "top_p": null
       },
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.19$"
     },
@@ -1865,7 +1882,7 @@
         "xhigh"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
@@ -1880,7 +1897,7 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 65536,
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.04$, Cache 0.5$ | Price Over 256k tokens -- Input 1.2$, Output 4.8$, Cache 0.12$, Cache 1.5$"
     },
@@ -1900,7 +1917,7 @@
         "max"
       ],
       "requestHeaders": {
-        "x-opencode-session": "ee2a9f0d-7acb-40e5-847e-9a617a3dd6d3"
+        "x-opencode-session": "1d83548d-67aa-4a60-8c8a-6b422662beae"
       },
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
@@ -3466,7 +3483,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.28$, Output 10$, Cache 0.28$"
+      "tooltip": "Price Per 1M token -- Input 1.125$, Output 11.2$, Cache 0.29$"
     },
     {
       "id": "poolside/laguna-s-2.1:free",
@@ -3968,7 +3985,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.0045$, Output 1.28$, Cache 0.0045$"
+      "tooltip": "Price Per 1M token -- Input 0.0062$, Output 1.28$, Cache 0.0062$"
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -3985,7 +4002,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.015543$, Output 0.396$, Cache 0.002851$"
+      "tooltip": "Price Per 1M token -- Input 0.0189$, Output 0.75$, Cache 0.0189$"
     },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -4066,7 +4083,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 163840,
-      "maxOutputTokens": 147456,
+      "maxOutputTokens": 115200,
       "tooltip": "Price Per 1M token -- Input 0.29$, Output 1.14$, Cache 0.11$"
     },
     {
@@ -4095,7 +4112,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.255084$, Output 0.510168$, Cache 0.021257$"
+      "tooltip": "Price Per 1M token -- Input 0.2088$, Output 0.4176$, Cache 0.0174$"
     },
     {
       "id": "deepseek/deepseek-r1-0528",
@@ -4136,6 +4153,18 @@
         "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 0.042$, Output 0.084$, Cache 0.0084$"
+    },
+    {
+      "id": "unbiased/pareto-26.10-preview",
+      "name": "Pareto 26.10 Preview",
+      "url": "https://openrouter.ai/api/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "tooltip": "Price Per 1M token -- Input 0.8$, Output 3.2$, Cache 0.03$"
     },
     {
       "id": "unbiased/pareto",
@@ -4441,7 +4470,7 @@
       "thinking": true,
       "maxInputTokens": 131072,
       "maxOutputTokens": 32768,
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.055$"
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.05$"
     },
     {
       "id": "z-ai/glm-4.5",
@@ -4592,7 +4621,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+      "tooltip": "Price Per 1M token -- Input 0.41$, Output 3.99$, Cache 0.26$"
     },
     {
       "id": "z-ai/glm-5.1",
@@ -4639,13 +4668,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 4.4$, Cache 0.24$"
+      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.14$"
     },
     {
       "id": "inference-net/schematron-v2-small",
@@ -4740,7 +4769,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 524288,
-      "maxOutputTokens": 471859,
+      "maxOutputTokens": 262144,
       "supportsReasoningEffort": [
         "none",
         "minimal",
@@ -4749,7 +4778,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1$, Output 4.05$, Cache 0.17$"
+      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4.05$, Cache 0.16$"
     },
     {
       "id": "meituan/longcat-2.0",
@@ -5068,7 +5097,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.02$, Output 0.2475$, Cache 0.01$"
+      "tooltip": "Price Per 1M token -- Input 0.02625$, Output 0.625$, Cache 0.02625$"
     },
     {
       "id": "~z-ai/glm-latest",
@@ -5079,13 +5108,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 235929,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.19$, Output 4$, Cache 0.19$"
+      "tooltip": "Price Per 1M token -- Input 0.12$, Output 1.14$, Cache 0.067$"
     },
     {
       "id": "arcee-ai/trinity-large-thinking",
@@ -5529,7 +5558,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.015543$, Output 0.396$, Cache 0.002851$"
+      "tooltip": "Price Per 1M token -- Input 0.0189$, Output 0.75$, Cache 0.0189$"
     },
     {
       "id": "~deepseek/deepseek-pro-latest",
@@ -5546,7 +5575,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.3317$, Output 3.5$, Cache 0.3317$"
+      "tooltip": "Price Per 1M token -- Input 0.1325$, Output 3.5$, Cache 0.1325$"
     },
     {
       "id": "~deepseek/deepseek-v4-flash-latest",
@@ -5563,7 +5592,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.0045$, Output 1.28$, Cache 0.0045$"
+      "tooltip": "Price Per 1M token -- Input 0.00465$, Output 1.6$, Cache 0.00465$"
     },
     {
       "id": "~x-ai/grok-latest",
@@ -6520,7 +6549,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.28$, Output 10$, Cache 0.28$"
+      "tooltip": "Price Per 1M token -- Input 1.125$, Output 11.2$, Cache 0.29$"
     },
     {
       "id": "moonshotai/kimi-k2.6",
@@ -6535,7 +6564,7 @@
       "modelOptions": {
         "top_p": null
       },
-      "tooltip": "Price Per 1M token -- Input 0.65$, Output 3.41$, Cache 0.15$"
+      "tooltip": "Price Per 1M token -- Input 0.43415$, Output 1.828$, Cache 0.07312$"
     },
     {
       "id": "moonshotai/kimi-k2-thinking",
@@ -6546,11 +6575,11 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 98304,
       "modelOptions": {
         "top_p": null
       },
-      "tooltip": "Price Per 1M token -- Input 0.6$, Output 2.5$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.6$, Output 2.5$, Cache 0.15$"
     },
     {
       "id": "moonshotai/kimi-k2.5",
@@ -6637,6 +6666,23 @@
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.1$, Cache 0$"
     },
     {
+      "id": "apodex/apodex-1.1-mini:free",
+      "name": "Apodex 1.1 Mini (free)",
+      "url": "https://openrouter.ai/api/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 235929,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "nvidia/nemotron-3-nano-30b-a3b",
       "name": "Nemotron 3 Nano 30B A3B",
       "url": "https://openrouter.ai/api/v1",
@@ -6679,13 +6725,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 32768,
       "supportsReasoningEffort": [
         "low",
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.0595$, Output 0.17$, Cache 0.02975$"
+      "tooltip": "Price Per 1M token -- Input 0.06$, Output 0.16$, Cache 0.03$"
     },
     {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -6744,12 +6790,12 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 182520,
+      "maxOutputTokens": 16384,
       "supportsReasoningEffort": [
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.6$, Output 2.4$, Cache 0.12$"
+      "tooltip": "Price Per 1M token -- Input 0.5$, Output 2.2$, Cache 0.1$"
     },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -7801,8 +7847,8 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 32000,
-      "tooltip": "Price Per 1M token -- Input 0.04815$, Output 0.19305$, Cache 0$"
+      "maxOutputTokens": 235929,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0$"
     },
     {
       "id": "qwen/qwen2.5-vl-72b-instruct",
@@ -10544,6 +10590,18 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
+      "id": "tiny-aya-fire",
+      "name": "Tiny Aya Fire",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "command-r7b-arabic-02-2025",
       "name": "Command R7B Arabic",
       "url": "",
@@ -10554,6 +10612,18 @@
       "maxInputTokens": 128000,
       "maxOutputTokens": 4000,
       "tooltip": "Price Per 1M token -- Input 0.0375$, Output 0.15$, Cache 0$"
+    },
+    {
+      "id": "tiny-aya-earth",
+      "name": "Tiny Aya Earth",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "command-a-plus-05-2026",
@@ -10609,6 +10679,30 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
+      "id": "tiny-aya-global",
+      "name": "Tiny Aya Global",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "north-small-translate-09-2026",
+      "name": "North Small Translate",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 32768,
+      "maxOutputTokens": 16000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "command-r7b-12-2024",
       "name": "Command R7B",
       "url": "",
@@ -10643,6 +10737,18 @@
       "maxInputTokens": 128000,
       "maxOutputTokens": 8000,
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+    },
+    {
+      "id": "tiny-aya-water",
+      "name": "Tiny Aya Water",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "command-a-reasoning-08-2025",
