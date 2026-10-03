@@ -41,18 +41,6 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
     },
     {
-      "id": "c4ai-aya-expanse-8b",
-      "name": "Aya Expanse 8B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 8000,
-      "maxOutputTokens": 4000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "tiny-aya-fire",
       "name": "Tiny Aya Fire",
       "url": "",
@@ -116,18 +104,6 @@
       "maxInputTokens": 256000,
       "maxOutputTokens": 8000,
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
-    },
-    {
-      "id": "c4ai-aya-vision-8b",
-      "name": "Aya Vision 8B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": true,
-      "thinking": false,
-      "maxInputTokens": 16000,
-      "maxOutputTokens": 4000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "c4ai-aya-vision-32b",
