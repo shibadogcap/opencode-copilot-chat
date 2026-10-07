@@ -985,6 +985,18 @@
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$"
     },
     {
+      "id": "mistral/mistral-large-4",
+      "name": "Mistral Large 4",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 524288,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 1.36$, Output 4.18$, Cache 0.14$"
+    },
+    {
       "id": "thinkingmachines/inkling",
       "name": "Inkling",
       "url": "https://api.commandcode.ai/provider/v1",
