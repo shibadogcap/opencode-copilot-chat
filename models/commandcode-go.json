@@ -37,6 +37,18 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
+      "id": "stealth/glyph-cluster:free",
+      "name": "Glyph Cluster",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "tencent/hy4-preview",
       "name": "Tencent Hy4 Preview",
       "url": "https://api.commandcode.ai/provider/v1",
