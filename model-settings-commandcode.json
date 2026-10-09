@@ -1233,7 +1233,19 @@
         "thinking": true,
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
+      },
+      {
+        "id": "claude-haiku-5-5",
+        "name": "Claude Haiku 5.5",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.5$, Cache 0.01$, Cache 0.125$"
       },
       {
         "id": "gpt-6-luna",
@@ -2008,7 +2020,7 @@
         "thinking": true,
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
       },
       {
         "id": "claude-sonnet-5",
@@ -3035,7 +3047,7 @@
         "thinking": true,
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
       },
       {
         "id": "claude-sonnet-5",
@@ -4110,7 +4122,7 @@
         "thinking": true,
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
       },
       {
         "id": "claude-sonnet-5",

@@ -574,7 +574,7 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
     },
     {
       "id": "claude-sonnet-5",
