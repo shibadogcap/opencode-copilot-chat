@@ -913,6 +913,18 @@
       "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$"
     },
     {
+      "id": "meta/muse-wonder-1.0",
+      "name": "Muse Wonder",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 4$, Output 20$, Cache 0.2$"
+    },
+    {
       "id": "meta/muse-spark-1.3",
       "name": "Muse Spark 1.3",
       "url": "https://api.commandcode.ai/provider/v1",
