@@ -29,18 +29,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "inclusionai/ling-3.1-flash:free",
-        "name": "Ling 3.1 Flash",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "stealth/glyph-cluster:free",
         "name": "Glyph Cluster",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -459,6 +447,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash",
+        "name": "Ling 3.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.06$"
       },
       {
         "id": "stepfun/Step-5-Preview",
@@ -684,18 +684,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "inclusionai/ling-3.1-flash:free",
-        "name": "Ling 3.1 Flash",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "stealth/glyph-cluster:free",
         "name": "Glyph Cluster",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -996,6 +984,18 @@
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$"
       },
       {
+        "id": "Qwen/Qwen3.8-Max-Prime",
+        "name": "Qwen 3.8 Max Prime",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 4$, Output 12$, Cache 0.5$, Cache 5$"
+      },
+      {
         "id": "Qwen/Qwen3.8-Max-0902",
         "name": "Qwen 3.8 Max 0902",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1114,6 +1114,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash",
+        "name": "Ling 3.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.06$"
       },
       {
         "id": "stepfun/Step-5-Preview",
@@ -1471,18 +1483,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "inclusionai/ling-3.1-flash:free",
-        "name": "Ling 3.1 Flash",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "stealth/glyph-cluster:free",
         "name": "Glyph Cluster",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1783,6 +1783,18 @@
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$"
       },
       {
+        "id": "Qwen/Qwen3.8-Max-Prime",
+        "name": "Qwen 3.8 Max Prime",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 4$, Output 12$, Cache 0.5$, Cache 5$"
+      },
+      {
         "id": "Qwen/Qwen3.8-Max-0902",
         "name": "Qwen 3.8 Max 0902",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1901,6 +1913,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash",
+        "name": "Ling 3.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.06$"
       },
       {
         "id": "stepfun/Step-5-Preview",
@@ -2438,18 +2462,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "inclusionai/ling-3.1-flash:free",
-        "name": "Ling 3.1 Flash",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "stealth/glyph-cluster:free",
         "name": "Glyph Cluster",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2750,6 +2762,18 @@
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$"
       },
       {
+        "id": "Qwen/Qwen3.8-Max-Prime",
+        "name": "Qwen 3.8 Max Prime",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 4$, Output 12$, Cache 0.5$, Cache 5$"
+      },
+      {
         "id": "Qwen/Qwen3.8-Max-0902",
         "name": "Qwen 3.8 Max 0902",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2868,6 +2892,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash",
+        "name": "Ling 3.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.06$"
       },
       {
         "id": "stepfun/Step-5-Preview",
@@ -3537,18 +3573,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "inclusionai/ling-3.1-flash:free",
-        "name": "Ling 3.1 Flash",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "stealth/glyph-cluster:free",
         "name": "Glyph Cluster",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -3849,6 +3873,18 @@
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$"
       },
       {
+        "id": "Qwen/Qwen3.8-Max-Prime",
+        "name": "Qwen 3.8 Max Prime",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 4$, Output 12$, Cache 0.5$, Cache 5$"
+      },
+      {
         "id": "Qwen/Qwen3.8-Max-0902",
         "name": "Qwen 3.8 Max 0902",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -3967,6 +4003,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash",
+        "name": "Ling 3.1 Flash",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.06$"
       },
       {
         "id": "stepfun/Step-5-Preview",
