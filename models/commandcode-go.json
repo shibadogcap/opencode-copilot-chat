@@ -314,7 +314,7 @@
     },
     {
       "id": "deepseek/deepseek-v4.1-flash-fast",
-      "name": "DeepSeek V4.1 Flash Fast",
+      "name": "DeepSeek V4.1 Flash Fast (latest)",
       "url": "https://api.commandcode.ai/provider/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
