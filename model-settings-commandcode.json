@@ -269,6 +269,30 @@
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.03$"
       },
       {
+        "id": "ornith/ornith-1.5-122b:free",
+        "name": "Ornith 1.5 122B",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "ornith/ornith-1.5-122b",
+        "name": "Ornith 1.5 122B",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.64$, Cache 0.02$"
+      },
+      {
         "id": "deepseek/deepseek-v4-pro",
         "name": "DeepSeek V4 Pro (latest)",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -970,6 +994,30 @@
         "maxInputTokens": 200000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.03$"
+      },
+      {
+        "id": "ornith/ornith-1.5-122b:free",
+        "name": "Ornith 1.5 122B",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "ornith/ornith-1.5-122b",
+        "name": "Ornith 1.5 122B",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.64$, Cache 0.02$"
       },
       {
         "id": "deepseek/deepseek-v4-pro",
@@ -1829,6 +1877,30 @@
         "maxInputTokens": 200000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.03$"
+      },
+      {
+        "id": "ornith/ornith-1.5-122b:free",
+        "name": "Ornith 1.5 122B",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "ornith/ornith-1.5-122b",
+        "name": "Ornith 1.5 122B",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.64$, Cache 0.02$"
       },
       {
         "id": "deepseek/deepseek-v4-pro",
@@ -2868,6 +2940,30 @@
         "maxInputTokens": 200000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.03$"
+      },
+      {
+        "id": "ornith/ornith-1.5-122b:free",
+        "name": "Ornith 1.5 122B",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "ornith/ornith-1.5-122b",
+        "name": "Ornith 1.5 122B",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.64$, Cache 0.02$"
       },
       {
         "id": "deepseek/deepseek-v4-pro",
@@ -4039,6 +4135,30 @@
         "maxInputTokens": 200000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.03$"
+      },
+      {
+        "id": "ornith/ornith-1.5-122b:free",
+        "name": "Ornith 1.5 122B",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "ornith/ornith-1.5-122b",
+        "name": "Ornith 1.5 122B",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.64$, Cache 0.02$"
       },
       {
         "id": "deepseek/deepseek-v4-pro",
