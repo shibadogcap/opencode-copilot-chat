@@ -209,18 +209,6 @@
         "tooltip": "Price Per 1M token -- Input 1$, Output 3.2$, Cache 0.2$"
       },
       {
-        "id": "minimax/minimax-m3.1-flash:free",
-        "name": "MiniMax M3.1 Flash",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "minimax/minimax-m3.1-flash",
         "name": "MiniMax M3.1 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -267,18 +255,6 @@
         "maxInputTokens": 200000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.03$"
-      },
-      {
-        "id": "ornith/ornith-1.5-122b:free",
-        "name": "Ornith 1.5 122B",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
         "id": "ornith/ornith-1.5-122b",
@@ -565,30 +541,6 @@
         "vision": true,
         "thinking": false,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
-      },
-      {
-        "id": "xiaomi/mimo-v2.5-pro",
-        "name": "MiMo V2.5 Pro",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": false,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.0036$"
-      },
-      {
-        "id": "xiaomi/mimo-v2.5",
-        "name": "MiMo V2.5",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": false,
-        "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
       },
@@ -936,18 +888,6 @@
         "tooltip": "Price Per 1M token -- Input 1$, Output 3.2$, Cache 0.2$"
       },
       {
-        "id": "minimax/minimax-m3.1-flash:free",
-        "name": "MiniMax M3.1 Flash",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "minimax/minimax-m3.1-flash",
         "name": "MiniMax M3.1 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -994,18 +934,6 @@
         "maxInputTokens": 200000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.03$"
-      },
-      {
-        "id": "ornith/ornith-1.5-122b:free",
-        "name": "Ornith 1.5 122B",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
         "id": "ornith/ornith-1.5-122b",
@@ -1316,30 +1244,6 @@
         "vision": true,
         "thinking": false,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
-      },
-      {
-        "id": "xiaomi/mimo-v2.5-pro",
-        "name": "MiMo V2.5 Pro",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": false,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.0036$"
-      },
-      {
-        "id": "xiaomi/mimo-v2.5",
-        "name": "MiMo V2.5",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": false,
-        "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
       },
@@ -1819,18 +1723,6 @@
         "tooltip": "Price Per 1M token -- Input 1$, Output 3.2$, Cache 0.2$"
       },
       {
-        "id": "minimax/minimax-m3.1-flash:free",
-        "name": "MiniMax M3.1 Flash",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "minimax/minimax-m3.1-flash",
         "name": "MiniMax M3.1 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1877,18 +1769,6 @@
         "maxInputTokens": 200000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.03$"
-      },
-      {
-        "id": "ornith/ornith-1.5-122b:free",
-        "name": "Ornith 1.5 122B",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
         "id": "ornith/ornith-1.5-122b",
@@ -2199,30 +2079,6 @@
         "vision": true,
         "thinking": false,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
-      },
-      {
-        "id": "xiaomi/mimo-v2.5-pro",
-        "name": "MiMo V2.5 Pro",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": false,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.0036$"
-      },
-      {
-        "id": "xiaomi/mimo-v2.5",
-        "name": "MiMo V2.5",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": false,
-        "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
       },
@@ -2882,18 +2738,6 @@
         "tooltip": "Price Per 1M token -- Input 1$, Output 3.2$, Cache 0.2$"
       },
       {
-        "id": "minimax/minimax-m3.1-flash:free",
-        "name": "MiniMax M3.1 Flash",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "minimax/minimax-m3.1-flash",
         "name": "MiniMax M3.1 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2940,18 +2784,6 @@
         "maxInputTokens": 200000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.03$"
-      },
-      {
-        "id": "ornith/ornith-1.5-122b:free",
-        "name": "Ornith 1.5 122B",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
         "id": "ornith/ornith-1.5-122b",
@@ -3262,30 +3094,6 @@
         "vision": true,
         "thinking": false,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
-      },
-      {
-        "id": "xiaomi/mimo-v2.5-pro",
-        "name": "MiMo V2.5 Pro",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": false,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.0036$"
-      },
-      {
-        "id": "xiaomi/mimo-v2.5",
-        "name": "MiMo V2.5",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": false,
-        "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
       },
@@ -4077,18 +3885,6 @@
         "tooltip": "Price Per 1M token -- Input 1$, Output 3.2$, Cache 0.2$"
       },
       {
-        "id": "minimax/minimax-m3.1-flash:free",
-        "name": "MiniMax M3.1 Flash",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "minimax/minimax-m3.1-flash",
         "name": "MiniMax M3.1 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -4135,18 +3931,6 @@
         "maxInputTokens": 200000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.03$"
-      },
-      {
-        "id": "ornith/ornith-1.5-122b:free",
-        "name": "Ornith 1.5 122B",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
         "id": "ornith/ornith-1.5-122b",
@@ -4457,30 +4241,6 @@
         "vision": true,
         "thinking": false,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
-      },
-      {
-        "id": "xiaomi/mimo-v2.5-pro",
-        "name": "MiMo V2.5 Pro",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": false,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.0036$"
-      },
-      {
-        "id": "xiaomi/mimo-v2.5",
-        "name": "MiMo V2.5",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": false,
-        "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
       },
