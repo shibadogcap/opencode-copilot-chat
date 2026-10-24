@@ -61,6 +61,18 @@
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.58$, Cache 0.035$"
     },
     {
+      "id": "moonshotai/Kimi-K3.1-Pro",
+      "name": "Kimi K3.1 Pro",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$"
+    },
+    {
       "id": "moonshotai/Kimi-K3",
       "name": "Kimi K3",
       "url": "https://api.commandcode.ai/provider/v1",
