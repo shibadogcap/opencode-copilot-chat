@@ -2203,6 +2203,18 @@
         "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.1$, Cache 1.25$"
       },
       {
+        "id": "gpt-6.1-terra",
+        "name": "GPT-6.1 Terra",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.05$, Cache 1.25$"
+      },
+      {
         "id": "gpt-6-sol",
         "name": "GPT-6 Sol",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -3324,6 +3336,18 @@
         "maxInputTokens": 1050000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
+      },
+      {
+        "id": "gpt-6.1-terra",
+        "name": "GPT-6.1 Terra",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.05$, Cache 1.25$"
       },
       {
         "id": "gpt-6-sol",
@@ -4483,6 +4507,18 @@
         "maxInputTokens": 1050000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
+      },
+      {
+        "id": "gpt-6.1-terra",
+        "name": "GPT-6.1 Terra",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.05$, Cache 1.25$"
       },
       {
         "id": "gpt-6-sol",
