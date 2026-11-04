@@ -29,6 +29,18 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
+        "id": "stealth/crouton-alpha",
+        "name": "Crouton Alpha",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
         "id": "reflection/beam:free",
         "name": "Beam 1.0",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -37,18 +49,6 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "inclusionai/ling-3.1-flash-1019:free",
-        "name": "Ling 3.1 Flash 1019",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -497,6 +497,18 @@
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
+        "id": "inclusionai/ling-3.1-flash-1019",
+        "name": "Ling 3.1 Flash 1019",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.06$"
+      },
+      {
         "id": "inclusionai/ling-3.1-flash",
         "name": "Ling 3.1 Flash",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -732,6 +744,18 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
+        "id": "stealth/crouton-alpha",
+        "name": "Crouton Alpha",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
         "id": "reflection/beam:free",
         "name": "Beam 1.0",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -740,18 +764,6 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "inclusionai/ling-3.1-flash-1019:free",
-        "name": "Ling 3.1 Flash 1019",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -1210,6 +1222,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash-1019",
+        "name": "Ling 3.1 Flash 1019",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.06$"
       },
       {
         "id": "inclusionai/ling-3.1-flash",
@@ -1591,6 +1615,18 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
+        "id": "stealth/crouton-alpha",
+        "name": "Crouton Alpha",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
         "id": "reflection/beam:free",
         "name": "Beam 1.0",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -1599,18 +1635,6 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "inclusionai/ling-3.1-flash-1019:free",
-        "name": "Ling 3.1 Flash 1019",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -2069,6 +2093,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash-1019",
+        "name": "Ling 3.1 Flash 1019",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.06$"
       },
       {
         "id": "inclusionai/ling-3.1-flash",
@@ -2642,6 +2678,18 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
+        "id": "stealth/crouton-alpha",
+        "name": "Crouton Alpha",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
         "id": "reflection/beam:free",
         "name": "Beam 1.0",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2650,18 +2698,6 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "inclusionai/ling-3.1-flash-1019:free",
-        "name": "Ling 3.1 Flash 1019",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -3120,6 +3156,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash-1019",
+        "name": "Ling 3.1 Flash 1019",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.06$"
       },
       {
         "id": "inclusionai/ling-3.1-flash",
@@ -3825,6 +3873,18 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
+        "id": "stealth/crouton-alpha",
+        "name": "Crouton Alpha",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
         "id": "reflection/beam:free",
         "name": "Beam 1.0",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -3833,18 +3893,6 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "inclusionai/ling-3.1-flash-1019:free",
-        "name": "Ling 3.1 Flash 1019",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -4303,6 +4351,18 @@
         "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash-1019",
+        "name": "Ling 3.1 Flash 1019",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.06$"
       },
       {
         "id": "inclusionai/ling-3.1-flash",
