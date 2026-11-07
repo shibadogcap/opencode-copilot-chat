@@ -349,6 +349,18 @@
       "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.58$, Cache 0.016$"
     },
     {
+      "id": "deepseek/deepseek-v4.1-flash-ultrafast",
+      "name": "DeepSeek V4.1 Flash Ultrafast",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 2.4$, Output 9.6$, Cache 0.048$"
+    },
+    {
       "id": "Qwen/Qwen3.8-Omni-Flash",
       "name": "Qwen 3.8 Omni Flash",
       "url": "https://api.commandcode.ai/provider/v1",
