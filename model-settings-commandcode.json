@@ -17,18 +17,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "stealth/crouton-alpha",
-        "name": "Crouton Alpha",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "tencent/hy4-preview",
         "name": "Tencent Hy4 Preview",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -716,18 +704,6 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 256000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "stealth/crouton-alpha",
-        "name": "Crouton Alpha",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -1591,18 +1567,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "stealth/crouton-alpha",
-        "name": "Crouton Alpha",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "tencent/hy4-preview",
         "name": "Tencent Hy4 Preview",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2371,6 +2335,18 @@
         "tooltip": "Price Per 1M token -- Input 2$, Output 8$, Cache 0.5$, Cache 0$"
       },
       {
+        "id": "google/gemini-4-carbon",
+        "name": "Gemini 4 Carbon",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$"
+      },
+      {
         "id": "google/gemini-4-argon",
         "name": "Gemini 4 Argon",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2650,18 +2626,6 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 256000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "stealth/crouton-alpha",
-        "name": "Crouton Alpha",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -3540,6 +3504,18 @@
         "maxInputTokens": 400000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 2$, Output 8$, Cache 0.5$, Cache 0$"
+      },
+      {
+        "id": "google/gemini-4-carbon",
+        "name": "Gemini 4 Carbon",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$"
       },
       {
         "id": "google/gemini-4-argon",
@@ -3861,18 +3837,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "stealth/crouton-alpha",
-        "name": "Crouton Alpha",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "tencent/hy4-preview",
         "name": "Tencent Hy4 Preview",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -4747,6 +4711,18 @@
         "maxInputTokens": 400000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 2$, Output 8$, Cache 0.5$, Cache 0$"
+      },
+      {
+        "id": "google/gemini-4-carbon",
+        "name": "Gemini 4 Carbon",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$"
       },
       {
         "id": "google/gemini-4-argon",
