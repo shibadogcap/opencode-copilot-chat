@@ -25,6 +25,30 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
+      "id": "recursive/flint-v1.0:free",
+      "name": "Flint",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "tencent/hy4-flash",
+      "name": "Tencent Hy4 Flash",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1024000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.281$, Cache 0.003$"
+    },
+    {
       "id": "tencent/hy4-preview",
       "name": "Tencent Hy4 Preview",
       "url": "https://api.commandcode.ai/provider/v1",
@@ -335,6 +359,18 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 0.16$, Output 0.58$, Cache 0.016$"
+    },
+    {
+      "id": "Qwen/Qwen4-Max",
+      "name": "Qwen 4 Max",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 1.5$, Output 4.5$, Cache 0.075$, Cache 1.875$"
     },
     {
       "id": "Qwen/Qwen3.8-Omni-Flash",
