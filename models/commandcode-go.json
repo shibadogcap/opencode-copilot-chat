@@ -49,6 +49,18 @@
       "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.281$, Cache 0.003$"
     },
     {
+      "id": "tencent/hy4",
+      "name": "Tencent Hy4",
+      "url": "https://api.commandcode.ai/provider/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1024000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
+    },
+    {
       "id": "tencent/hy4-preview",
       "name": "Tencent Hy4 Preview",
       "url": "https://api.commandcode.ai/provider/v1",

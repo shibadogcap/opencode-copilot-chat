@@ -53,6 +53,18 @@
         "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.281$, Cache 0.003$"
       },
       {
+        "id": "tencent/hy4",
+        "name": "Tencent Hy4",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1024000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
+      },
+      {
         "id": "tencent/hy4-preview",
         "name": "Tencent Hy4 Preview",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -790,6 +802,18 @@
         "maxInputTokens": 1024000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.281$, Cache 0.003$"
+      },
+      {
+        "id": "tencent/hy4",
+        "name": "Tencent Hy4",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1024000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
       },
       {
         "id": "tencent/hy4-preview",
@@ -1699,6 +1723,18 @@
         "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.281$, Cache 0.003$"
       },
       {
+        "id": "tencent/hy4",
+        "name": "Tencent Hy4",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1024000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
+      },
+      {
         "id": "tencent/hy4-preview",
         "name": "Tencent Hy4 Preview",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2359,6 +2395,18 @@
         "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.1$, Cache 1.25$"
       },
       {
+        "id": "gpt-6.2-sol",
+        "name": "GPT-6.2 Sol",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
+      },
+      {
         "id": "gpt-6.1-terra",
         "name": "GPT-6.1 Terra",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -2808,6 +2856,18 @@
         "maxInputTokens": 1024000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.281$, Cache 0.003$"
+      },
+      {
+        "id": "tencent/hy4",
+        "name": "Tencent Hy4",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1024000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
       },
       {
         "id": "tencent/hy4-preview",
@@ -3564,6 +3624,30 @@
         "maxInputTokens": 1050000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$"
+      },
+      {
+        "id": "gpt-6.2-astra",
+        "name": "GPT-6.2 Astra",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 8$, Output 40$, Cache 0.4$, Cache 10$"
+      },
+      {
+        "id": "gpt-6.2-sol",
+        "name": "GPT-6.2 Sol",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
       },
       {
         "id": "gpt-6.1-sol",
@@ -4065,6 +4149,18 @@
         "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.281$, Cache 0.003$"
       },
       {
+        "id": "tencent/hy4",
+        "name": "Tencent Hy4",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1024000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
+      },
+      {
         "id": "tencent/hy4-preview",
         "name": "Tencent Hy4 Preview",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -4819,6 +4915,30 @@
         "maxInputTokens": 1050000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$"
+      },
+      {
+        "id": "gpt-6.2-astra",
+        "name": "GPT-6.2 Astra",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 8$, Output 40$, Cache 0.4$, Cache 10$"
+      },
+      {
+        "id": "gpt-6.2-sol",
+        "name": "GPT-6.2 Sol",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
       },
       {
         "id": "gpt-6.1-sol",
