@@ -2539,6 +2539,18 @@
         "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$"
       },
       {
+        "id": "google/gemini-4-neon",
+        "name": "Gemini 4 Neon",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.15$"
+      },
+      {
         "id": "google/gemini-4-argon",
         "name": "Gemini 4 Argon",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -3792,6 +3804,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$"
+      },
+      {
+        "id": "google/gemini-4-neon",
+        "name": "Gemini 4 Neon",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.15$"
       },
       {
         "id": "google/gemini-4-argon",
@@ -5083,6 +5107,18 @@
         "maxInputTokens": 1000000,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$"
+      },
+      {
+        "id": "google/gemini-4-neon",
+        "name": "Gemini 4 Neon",
+        "url": "https://api.commandcode.ai/provider/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.15$"
       },
       {
         "id": "google/gemini-4-argon",
