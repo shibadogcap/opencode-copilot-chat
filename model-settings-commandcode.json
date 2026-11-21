@@ -17,18 +17,6 @@
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
       {
-        "id": "thinkingmachines/inkling-2-small:free",
-        "name": "Inkling 2 Small",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "recursive/flint-v1.0:free",
         "name": "Flint",
         "url": "https://api.commandcode.ai/provider/v1",
@@ -764,18 +752,6 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 256000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "thinkingmachines/inkling-2-small:free",
-        "name": "Inkling 2 Small",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -1683,18 +1659,6 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 256000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "thinkingmachines/inkling-2-small:free",
-        "name": "Inkling 2 Small",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -2830,18 +2794,6 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 256000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "thinkingmachines/inkling-2-small:free",
-        "name": "Inkling 2 Small",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -4133,18 +4085,6 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 256000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "thinkingmachines/inkling-2-small:free",
-        "name": "Inkling 2 Small",
-        "url": "https://api.commandcode.ai/provider/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
         "maxOutputTokens": 128000,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
